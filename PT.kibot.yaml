@@ -60,7 +60,7 @@ outputs:
     dir: Schematic
     options:
       format: "PDF"
-      scaling: 1.2
+      scaling: 1.0
       pages:
         - sheet: FrontBW
           layers:
