@@ -24271,7 +24271,7 @@
 		(layer "Dwgs.User")
 		(uuid "897dee90-43da-42ca-83f1-ced6f65884da")
 		(pts
-			(xy 101.6 91.325) (xy 97.6 90.325)
+			(xy 101.6 90.325) (xy 97.6 89.325)
 		)
 		(height -19)
 		(orientation 0)
@@ -24293,7 +24293,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "4"
-			(at 99.6 71.175 0)
+			(at 99.6 70.175 0)
 			(layer "Dwgs.User")
 			(uuid "897dee90-43da-42ca-83f1-ced6f65884da")
 			(effects
@@ -24514,6 +24514,15 @@
 		(free yes)
 		(net 1)
 		(uuid "07bd9b44-9af0-436b-b6dd-e900c0a1cd23")
+	)
+	(via
+		(at 107.6 77.325)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "07dbf67c-c4c4-4379-bdb6-72bb2732587b")
 	)
 	(via
 		(at 160.975 76.75)
@@ -25053,6 +25062,15 @@
 		(free yes)
 		(net 1)
 		(uuid "366f0ec0-50b8-4027-9ba4-1c43dafa680e")
+	)
+	(via
+		(at 103.6 77.325)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "36a3c880-74b6-46c9-a4d6-f3be9239f19a")
 	)
 	(via
 		(at 151.6 140.325)
@@ -26713,6 +26731,15 @@
 		(uuid "c53636d0-3d4e-4030-975d-4b303504ce72")
 	)
 	(via
+		(at 105.6 77.325)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "c58f3a6d-7144-45a2-9739-a012e8a44e3b")
+	)
+	(via
 		(at 115.6 78.125)
 		(size 0.6)
 		(drill 0.3)
@@ -26988,6 +27015,15 @@
 		(free yes)
 		(net 1)
 		(uuid "dd2aec6e-c08d-470a-a1e9-a54b379039bb")
+	)
+	(via
+		(at 101.6 77.325)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 1)
+		(uuid "def9968c-3c36-4124-be83-cf960ebae396")
 	)
 	(via
 		(at 149 110.675)
