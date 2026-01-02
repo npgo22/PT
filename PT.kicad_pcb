@@ -21035,6 +21035,18 @@
 		(layer "F.SilkS")
 		(uuid "2a9ccf07-6ccf-4567-9ba0-d5c95da98f0c")
 	)
+	(gr_poly
+		(pts
+			(xy 154.44554 132.42054) (xy 153.69554 131.67054) (xy 155.19554 131.67054)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "3a4b210d-1897-421e-82bd-29f6f7371eb3")
+	)
 	(gr_line
 		(start 140.5 90.725)
 		(end 153.5 90.725)
