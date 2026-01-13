@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "PT DAQ")
-		(date "2026-01-01")
+		(date "2026-01-12")
 		(rev "1A")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "By: Nolan Poe")
@@ -5221,16 +5221,6 @@
 			)
 		)
 		(uuid "81658e7d-056f-4609-a5be-ab19c560f93e")
-	)
-	(text "Re-check crystal footprint when crystal is chosen"
-		(exclude_from_sim no)
-		(at 40.64 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9e8ba09d-7a13-4725-87c2-1e169bc38548")
 	)
 	(text "Pinout in STM32CubeMX"
 		(exclude_from_sim no)

@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "PT DAQ")
-		(date "2026-01-01")
+		(date "2026-01-12")
 		(rev "1A")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "By: Nolan Poe")
@@ -2288,7 +2288,7 @@
 		)
 		(uuid df3d17d5-267b-43d9-a9a6-b9f9baa4d456)
 	)
-	(text "Voltage range:\n13.7R*10G*.024A = 3.288V max\n.1^2 * 13.7 = 137 mW (before fuse trips)"
+	(text "Voltage range:\n13*10G*.025A = 3.25V max\n.1^2 * 13 = 130 mW (before fuse trips)"
 		(exclude_from_sim no)
 		(at 107.95 34.29 0)
 		(effects
@@ -2308,15 +2308,15 @@
 		)
 		(uuid "1ba44f71-526c-4ecf-983b-1c966ab8c814")
 	)
-	(text "Re-check crystal footprint when crystal is chosen"
+	(text "Resistors should be .1%"
 		(exclude_from_sim no)
-		(at 190.5 129.54 0)
+		(at 30.988 193.548 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "60eae495-b0f4-43db-b675-76c4dde17a84")
+		(uuid "21bea784-5db3-4356-a71b-d4af0703d0e9")
 	)
 	(text "POWER"
 		(exclude_from_sim no)
@@ -4846,7 +4846,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7R"
+		(property "Value" "13R"
 			(at 25.4 135.8899 0)
 			(effects
 				(font
@@ -4855,7 +4855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "libpt:R_1206_3216Metric"
 			(at 22.86 134.62 0)
 			(effects
 				(font
@@ -5765,7 +5765,7 @@
 		(dnp no)
 		(uuid "3e815b8e-1fb0-4b12-b446-871ddbf4827f")
 		(property "Reference" "J5"
-			(at 21.336 166.37 90)
+			(at 28.956 166.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5977,7 +5977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7R"
+		(property "Value" "13R"
 			(at 25.4 92.7099 0)
 			(effects
 				(font
@@ -5986,7 +5986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "libpt:R_1206_3216Metric"
 			(at 22.86 91.44 0)
 			(effects
 				(font
@@ -6606,7 +6606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "30pF"
 			(at 195.58 140.9762 0)
 			(effects
 				(font
@@ -7387,7 +7387,7 @@
 		(dnp no)
 		(uuid "7d341fb1-6cae-4cf3-82de-1a541eb51209")
 		(property "Reference" "J4"
-			(at 20.066 123.19 90)
+			(at 27.178 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8369,7 @@
 		(dnp no)
 		(uuid "b300cd22-91b7-428a-9cb2-70b258564d00")
 		(property "Reference" "J3"
-			(at 20.066 80.01 90)
+			(at 27.178 79.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7R"
+		(property "Value" "13R"
 			(at 26.67 179.0699 0)
 			(effects
 				(font
@@ -8457,7 +8457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "libpt:R_1206_3216Metric"
 			(at 24.13 177.8 0)
 			(effects
 				(font
@@ -8655,7 +8655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.7R"
+		(property "Value" "13R"
 			(at 24.13 49.5299 0)
 			(effects
 				(font
@@ -8664,7 +8664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "libpt:R_1206_3216Metric"
 			(at 21.59 48.26 0)
 			(effects
 				(font
@@ -8783,7 +8783,7 @@
 		(dnp no)
 		(uuid "c63a597d-6bc6-43c4-8cb3-b8fbf7270f28")
 		(property "Reference" "J2"
-			(at 18.796 36.83 90)
+			(at 26.162 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8862,7 +8862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10pF"
+		(property "Value" "30pF"
 			(at 180.34 140.9762 0)
 			(effects
 				(font

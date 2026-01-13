@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "PT DAQ")
-		(date "2026-01-01")
+		(date "2026-01-12")
 		(rev "1A")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "By: Nolan Poe")
@@ -3847,23 +3847,13 @@
 	)
 	(text "ETH PHY"
 		(exclude_from_sim no)
-		(at 26.67 19.05 0)
+		(at 30.226 20.828 0)
 		(effects
 			(font
 				(size 3.81 3.81)
 			)
 		)
 		(uuid "9be55ab2-168a-48d6-97c5-71dc3414104f")
-	)
-	(text "Re-check crystal footprint when crystal is chosen"
-		(exclude_from_sim no)
-		(at 45.72 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cb8a77e6-4a80-42a0-bcc2-e1e9560e8263")
 	)
 	(text "CAN"
 		(exclude_from_sim no)
@@ -8250,7 +8240,7 @@
 		(dnp no)
 		(uuid "78ab0281-3818-4362-b94f-cacd7149a97e")
 		(property "Reference" "Y3"
-			(at 45.212 118.872 0)
+			(at 48.006 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8248,7 @@
 			)
 		)
 		(property "Value" "25 MHz"
-			(at 46.228 121.92 0)
+			(at 49.022 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
