@@ -11180,7 +11180,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A2045PDBV"
+		(property "Value" "TPS7A2033PDBV"
 			(at 58.42 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
