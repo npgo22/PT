@@ -22,3 +22,5 @@ Pcbprint
 Schematic
 JLCPCB
 *.log
+.history
+production
