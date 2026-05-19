@@ -115,7 +115,7 @@
 	)
 	(rectangle
 		(start 20.32 172.72)
-		(end 43.18 199.39)
+		(end 43.18 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -23751,82 +23751,6 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3801eef1-a9d9-4917-be1d-8833bdebf083")
-		(property "Reference" "H3"
-			(at 25.4 187.9599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 26.162 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 22.86 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "PT"
-				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
 		(at 22.86 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -23837,8 +23761,7 @@
 		(dnp no)
 		(uuid "541d203f-356b-4745-918a-d751b7388a27")
 		(property "Reference" "H1"
-			(at 25.4 175.2599 0)
-			(hide yes)
+			(at 25.4 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23850,6 +23773,7 @@
 		)
 		(property "Value" "MountingHole"
 			(at 26.162 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23903,7 +23827,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 182.88 0)
+		(at 22.86 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23911,10 +23835,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "62c6e168-0b8b-4aee-a96e-1691ca9b189a")
-		(property "Reference" "H2"
-			(at 25.4 181.6099 0)
-			(hide yes)
+		(uuid "ba8ef6e0-e74c-4d34-a8b1-39cf3e1cb95c")
+		(property "Reference" "H3"
+			(at 25.4 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23925,7 +23848,8 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 182.88 0)
+			(at 26.162 186.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23936,7 +23860,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 182.88 0)
+			(at 22.86 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23947,7 +23871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 182.88 0)
+			(at 22.86 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,7 +23882,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 182.88 0)
+			(at 22.86 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23971,7 +23895,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -23979,7 +23903,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 195.58 0)
+		(at 22.86 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23987,10 +23911,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7c2a7ca9-747e-45ed-9a5c-fb328a7612b2")
+		(uuid "ec14aee1-94d0-4cb5-b3e2-af055b92b223")
 		(property "Reference" "H4"
-			(at 25.4 194.3099 0)
-			(hide yes)
+			(at 25.4 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24001,7 +23924,8 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 195.58 0)
+			(at 26.162 191.77 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24012,7 +23936,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 195.58 0)
+			(at 22.86 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24023,7 +23947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 195.58 0)
+			(at 22.86 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24034,7 +23958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 195.58 0)
+			(at 22.86 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24048,6 +23972,82 @@
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4bacc26-69ad-42a6-843e-89fc32fd1e28")
+		(property "Reference" "H2"
+			(at 25.4 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 26.162 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 22.86 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "PT"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666"
+					(reference "H2")
 					(unit 1)
 				)
 			)
