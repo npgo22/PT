@@ -9020,7 +9020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00d06a4b-fcb7-4e27-ac34-d54566c32c5d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR023"
 			(at 77.47 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -9081,7 +9081,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR017")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9098,7 +9098,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ff3d157-5959-4304-ab49-04b2335bc802")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 67.056 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9120,7 +9120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 63.5 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9184,7 +9184,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9202,7 +9202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15be2018-1bd4-433f-aced-5ffb7088daf8")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR024"
 			(at 110.49 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -9263,7 +9263,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9281,7 +9281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227e7b0d-567e-4b09-9612-0a3f855ea9e3")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR021"
 			(at 20.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9342,7 +9342,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR015")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9360,7 +9360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247e00a4-2209-4d33-ae51-58c7fe6fab8c")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 236.22 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9382,7 +9382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 233.68 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9424,7 +9424,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9442,7 +9442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27f36dc7-be3f-4fb3-b262-9a4207a7ce35")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 39.37 100.3362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9464,7 +9464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 36.83 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9528,7 +9528,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9567,7 +9567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 217.17 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9627,7 +9627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36811d6d-c1bf-4678-b37e-15a56384a77d")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 181.61 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9649,7 +9649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9691,7 +9691,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9708,7 +9708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c32eaa8-a9f0-4724-bcf4-735ec78acf76")
-		(property "Reference" "D2"
+		(property "Reference" "D5"
 			(at 31.242 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9728,7 +9728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 27.94 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -9814,7 +9814,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D2")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9832,7 +9832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb27fbe-31cd-4621-8446-1ef26fc011c7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR015"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9892,7 +9892,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR020")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9909,7 +9909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4468f489-f01a-431a-9c5c-4ce136f16fe8")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 33.782 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9931,7 +9931,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 39.37 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9995,7 +9995,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -10012,7 +10012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45a9778e-8e59-4f28-9f44-e2e132646838")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 80.772 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10034,7 +10034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 77.47 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -10098,7 +10098,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10116,7 +10116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "480efa7e-c7e3-4c1b-b99d-f03fd079beaf")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR05"
 			(at 34.29 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10177,7 +10177,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR076")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -10195,7 +10195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8c3f93-54f9-45c9-8a84-9c2623ad4bf9")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR031"
 			(at 69.85 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10256,7 +10256,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR073")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10273,7 +10273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50b5b4e1-6889-4c15-bd5b-2114c6a5c2f5")
-		(property "Reference" "C48"
+		(property "Reference" "C13"
 			(at 84.836 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10295,7 +10295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 81.28 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10359,7 +10359,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C48")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10376,7 +10376,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54e0848f-b270-48e3-80a2-e6b1869d9595")
-		(property "Reference" "C49"
+		(property "Reference" "C14"
 			(at 96.266 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10398,7 +10398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 92.71 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -10462,7 +10462,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C49")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10480,7 +10480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "598f4e63-7348-4db9-a085-baf34bed026f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR032"
 			(at 120.65 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10541,7 +10541,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR075")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10559,7 +10559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5522dd-4720-475d-8c60-107b5e4abf6e")
-		(property "Reference" "C43"
+		(property "Reference" "C2"
 			(at 49.53 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10581,7 +10581,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 46.99 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10645,7 +10645,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C43")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10662,7 +10662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fa94ac2-d2fa-4770-a025-ea07e251b8ca")
-		(property "Reference" "C14"
+		(property "Reference" "C19"
 			(at 53.086 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10684,7 +10684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 49.53 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -10748,7 +10748,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C14")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10766,7 +10766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614025c5-0eb2-4a2e-9b0c-1e2e0d9c75b6")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 38.1 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -10827,7 +10827,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -10845,7 +10845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "684bfe8a-fc71-4a49-b341-14f30f1cde21")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR022"
 			(at 63.5 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -10906,7 +10906,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR016")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10924,7 +10924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68616dde-4838-4204-959f-6fe0fceffd8b")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR029"
 			(at 24.13 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -10985,7 +10985,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR024")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -11081,7 +11081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b57a928-14d5-4705-8430-3bf6c537049d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR019"
 			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -11142,7 +11142,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR027")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -11179,7 +11179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:3225-4P-L-noct"
+		(property "Footprint" "APRLPrints:3225-4P-L"
 			(at 46.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11267,7 +11267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ebcc1e4-d670-4c00-bf6e-fa1d6955c6b3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 36.83 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -11328,7 +11328,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11345,7 +11345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f9a93a2-36ee-437a-9fd4-55212cf7dbd4")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 191.262 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11368,7 +11368,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 189.23 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -11421,7 +11421,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71413f42-1c29-410d-86ae-dc9692a1e938")
-		(property "Reference" "C10"
+		(property "Reference" "C9"
 			(at 54.61 100.3362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11461,7 +11461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 52.07 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11525,7 +11525,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C10")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11543,7 +11543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7360cd95-8f05-4e44-8e28-69d6a3601ed6")
-		(property "Reference" "C39"
+		(property "Reference" "C6"
 			(at 95.25 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11565,7 +11565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 92.71 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -11629,7 +11629,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C39")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -11647,7 +11647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76dd1201-e78a-4423-948e-603b4996aea3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR027"
 			(at 21.59 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -11707,7 +11707,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR022")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11803,7 +11803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b76b408-c008-4039-aed9-7cbeb81449f1")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 181.102 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +11826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 179.07 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -11879,7 +11879,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11896,7 +11896,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b84b782-c55d-4fa2-a37b-2c31c2507166")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 33.528 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11918,7 +11918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 39.37 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11982,7 +11982,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12000,7 +12000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e465835-7ecf-4e67-98d4-757b2b1ba132")
-		(property "Reference" "C42"
+		(property "Reference" "C3"
 			(at 60.96 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12022,7 +12022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 58.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +12086,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C42")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -12104,7 +12104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e64d861-70fd-4519-8119-605640ea5be7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR018"
 			(at 179.07 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -12165,7 +12165,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR026")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12386,7 +12386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81dc6afc-93e8-4c8c-8cab-337135946a12")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 115.1733 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12652,7 +12652,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12670,7 +12670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87d71fe9-bbfc-46a2-b2c4-e762d70add29")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 200.66 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12692,7 +12692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12734,7 +12734,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -12751,7 +12751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8849116b-70d0-4943-8a4c-41c00954775d")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 200.152 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12774,7 +12774,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 198.12 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -12827,7 +12827,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12845,7 +12845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "892356d4-41c6-4714-aad6-a2d58e5fc1bd")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 191.77 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12867,7 +12867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 189.23 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12909,7 +12909,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13004,7 +13004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c9db644-0f47-4e44-bdb0-7181d7bb92a7")
-		(property "Reference" "D1"
+		(property "Reference" "D4"
 			(at 31.242 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13024,7 +13024,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 27.94 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -13110,7 +13110,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D1")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -13127,7 +13127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f42a212-2fa7-4dc6-a390-bf35579baa35")
-		(property "Reference" "C51"
+		(property "Reference" "C16"
 			(at 135.636 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 132.08 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -13213,7 +13213,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C51")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -13331,7 +13331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 220.98 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13391,7 +13391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db3ad7f-4bec-425b-9463-c02ff0d251d9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR033"
 			(at 109.22 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -13452,7 +13452,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR074")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -13549,7 +13549,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4745355-25d1-4749-aa6b-499a804416b7")
-		(property "Reference" "C41"
+		(property "Reference" "C4"
 			(at 72.39 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +13571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 69.85 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13635,7 +13635,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C41")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13653,7 +13653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6be0861-30ba-46f3-ab5b-5d7495ae686f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR014"
 			(at 179.07 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13713,7 +13713,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR019")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13731,7 +13731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8c1572d-04f8-4ff0-9e18-c79a92046f3c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 34.29 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13791,7 +13791,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13808,7 +13808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adfabf69-623b-450f-8c4b-6148eb2aa898")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 31.242 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13828,7 +13828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:LED_0603-noct"
+		(property "Footprint" "APRLPrints:LED_0603"
 			(at 27.94 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -13914,7 +13914,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -13931,7 +13931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b39ca608-d3ad-497b-b677-249ea624ecd4")
-		(property "Reference" "C47"
+		(property "Reference" "C12"
 			(at 73.406 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13953,7 +13953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 69.85 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14017,7 +14017,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C47")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -14114,7 +14114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba86a34d-c99e-42e0-8233-91c8fcce6a4a")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR026"
 			(at 148.59 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14174,7 +14174,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR03")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14191,7 +14191,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbc22255-feaf-4fde-bd2f-4443bc7cb27f")
-		(property "Reference" "C50"
+		(property "Reference" "C15"
 			(at 124.206 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14213,7 +14213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 120.65 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14277,7 +14277,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C50")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -14295,7 +14295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd9e2158-d925-4144-a7ab-c8c1262c97c7")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR030"
 			(at 49.53 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -14356,7 +14356,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR025")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14374,7 +14374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be0fcd1a-ea9d-42ca-8ac3-d071252f6b38")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 38.1 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14445,7 +14445,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14483,7 +14483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "APRLPrints:Fuse_0805_2012Metric"
 			(at 234.95 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14543,7 +14543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6e2de59-6143-4354-8b52-36cbd64e5eaf")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR025"
 			(at 68.58 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14603,7 +14603,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR072")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14641,7 +14641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:SKRPANE010-noct"
+		(property "Footprint" "APRLPrints:SKRPANE010"
 			(at 71.12 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14986,7 +14986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d463e19e-0852-44a2-86a9-cd2cc850ced8")
-		(property "Reference" "C44"
+		(property "Reference" "C1"
 			(at 38.1 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15008,7 +15008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 35.56 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15072,7 +15072,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C44")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15169,7 +15169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d659d047-a792-4c47-b987-c116036da818")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 109.22 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15240,7 +15240,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15258,7 +15258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da14fddb-5931-468f-a9a1-bb5ce3b8ad64")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR016"
 			(at 198.12 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -15318,7 +15318,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR021")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -15335,7 +15335,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da47212e-4ab2-4b8c-a24d-74b9ec94c9ad")
-		(property "Reference" "C52"
+		(property "Reference" "C17"
 			(at 147.066 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15357,7 +15357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0805-noct"
+		(property "Footprint" "APRLPrints:C_0805"
 			(at 143.51 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -15421,7 +15421,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C52")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -15517,7 +15517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea1e1a2f-91d3-4654-9f2e-5e910f551088")
-		(property "Reference" "C13"
+		(property "Reference" "C18"
 			(at 17.272 188.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15539,7 +15539,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 24.13 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -15603,7 +15603,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C13")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15620,7 +15620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2ae64f9-ca65-4496-9c03-120d49d4153a")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 33.782 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15642,7 +15642,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:R_0603-noct"
+		(property "Footprint" "APRLPrints:R_0603"
 			(at 39.37 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -15706,7 +15706,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "R4")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15724,7 +15724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f50cd909-0b84-43bd-a3c4-e66c52de8ee8")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR020"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -15785,7 +15785,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR028")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15803,7 +15803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66043b3-bd6d-48ca-86d3-4e20fb53d8fc")
-		(property "Reference" "C40"
+		(property "Reference" "C5"
 			(at 83.82 44.4562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15825,7 +15825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 81.28 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -15889,7 +15889,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "C40")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -15985,7 +15985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff019908-1f96-4238-80fb-df49aaa62d0d")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 52.07 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -16046,7 +16046,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/3c5beecf-74b1-48fe-ad8e-ae30f52b972a"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)

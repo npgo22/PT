@@ -4586,7 +4586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00603122-1124-4294-ac2f-708b47251024")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR049"
 			(at 177.8 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4647,7 +4647,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR042")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -4665,7 +4665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095a689e-a516-4a2a-a676-ada789ead819")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR039"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4726,7 +4726,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR071")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4744,7 +4744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09b1edde-4061-477f-9821-934a9347c1e8")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR044"
 			(at 27.94 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4804,7 +4804,165 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR037")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cc40cb2-da21-4c56-b168-a8ea54d79b7e")
+		(property "Reference" "R15"
+			(at 39.878 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 49.022 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 44.45 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b0e3beeb-7cf6-412c-95f3-464714613c77")
+		)
+		(pin "1"
+			(uuid "21a8e05e-adda-41e4-8eac-04a7278dfa1c")
+		)
+		(instances
+			(project "PT"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ff1fc69-c657-4d0a-bd15-4fbaf7c48450")
+		(property "Reference" "R20"
+			(at 39.878 177.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 49.022 177.292 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6b2d8f8-f348-416f-ad84-b15cf8679173")
+		)
+		(pin "1"
+			(uuid "5d834b16-699f-491e-b953-f3a14c0e1a6c")
+		)
+		(instances
+			(project "PT"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -4887,6 +5045,164 @@
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1553d46e-0644-42c0-9446-8d5bc36f6973")
+		(property "Reference" "R12"
+			(at 39.878 85.852 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 49.022 85.852 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4ed56dbf-92be-4ce6-a9c2-db52763dc75b")
+		)
+		(pin "1"
+			(uuid "a0224721-8c3b-43cf-96dc-20cfc2cbba55")
+		)
+		(instances
+			(project "PT"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1570794b-669e-4586-b1e5-10237d1743be")
+		(property "Reference" "R17"
+			(at 39.878 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 49.022 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "APRLPrints:R_0603"
+			(at 44.45 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 44.45 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08c70533-853e-434c-854e-2687b95dc85d")
+		)
+		(pin "1"
+			(uuid "e87da684-c2b7-4453-91eb-6288aef6a000")
+		)
+		(instances
+			(project "PT"
+				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f4f62fe-4c88-43a4-8428-f003ee8607f7")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 189.23 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5090,7 +5406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 186.69 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -5132,7 +5448,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5547,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26790785-5bc9-4498-8259-dade26a36859")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 111.252 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5388,7 +5704,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5406,7 +5722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26de68ac-1fe2-4682-ad2b-ca9dc5fbfd22")
-		(property "Reference" "C27"
+		(property "Reference" "C33"
 			(at 58.42 173.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 55.88 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -5470,7 +5786,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C27")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2caed220-14e9-47df-b29b-0d6c8c9ad402")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR052"
 			(at 121.92 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -5549,7 +5865,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR045")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -5567,7 +5883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f5bc913-345f-4f33-b5a0-6833942a2712")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 27.94 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5628,7 +5944,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5646,7 +5962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "304a6b74-3bb7-48a4-8dec-3182d15f3b60")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR048"
 			(at 27.94 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5707,7 +6023,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR041")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -5725,7 +6041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33992dfb-5ec7-4fb4-8ae6-aa702ec05a6a")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5786,7 +6102,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5804,7 +6120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a6958c4-583b-499e-b698-c4a7afec686e")
-		(property "Reference" "C46"
+		(property "Reference" "C21"
 			(at 129.54 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5826,7 +6142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 127 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5868,7 +6184,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C46")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -5968,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41095214-7424-4f6c-a043-8d929e273b78")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 200.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6028,7 +6344,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6045,7 +6361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fc13dc6-6b6f-4efb-aeab-fbb2da20a35d")
-		(property "Reference" "C22"
+		(property "Reference" "C28"
 			(at 142.494 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6067,7 +6383,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 148.59 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6109,7 +6425,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C22")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6127,7 +6443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5334110c-8eba-42c9-b930-672583b1ec9a")
-		(property "Reference" "C23"
+		(property "Reference" "C29"
 			(at 156.21 126.9935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6465,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 153.67 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -6191,7 +6507,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C23")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6209,7 +6525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56151e2c-f114-4ce4-a6ca-99be0a70ba1d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR051"
 			(at 130.81 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6585,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR044")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57b03bb9-47d1-48c9-90c1-4e0493f57f36")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR040"
 			(at 27.94 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6347,7 +6663,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR033")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5afbd4a6-d5a5-4386-922c-9ae5f19cb815")
-		(property "Reference" "C26"
+		(property "Reference" "C32"
 			(at 195.58 138.4362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6469,7 +6785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 193.04 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -6533,86 +6849,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 87.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5b6e551d-cae9-4dbe-8605-dfbb869f4f0d")
-		(property "Reference" "R12"
-			(at 39.878 85.852 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 49.022 85.852 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "248d4c9d-6b6f-4ed5-aec9-4d42b57929e5")
-		)
-		(pin "1"
-			(uuid "496ac5e9-08b4-48d2-9b92-101c4eb295c0")
-		)
-		(instances
-			(project "PT"
-				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R12")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6630,7 +6867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c14afee-1aaf-47b2-809c-24b56269a438")
-		(property "Reference" "C24"
+		(property "Reference" "C30"
 			(at 58.42 133.3562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6652,7 +6889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 55.88 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6694,7 +6931,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C24")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -6712,7 +6949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60a4c259-b198-47ff-bddf-5d82bb77e4ed")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR046"
 			(at 148.59 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -6773,7 +7010,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR039")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6791,7 +7028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641b3b95-c12c-4c59-82e4-f8b4b98e3676")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 133.35 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +7089,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6952,7 +7189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778fa4cc-362b-4552-b4bb-697de9493e5d")
-		(property "Reference" "C16"
+		(property "Reference" "C22"
 			(at 166.37 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +7211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 163.83 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7016,7 +7253,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C16")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7053,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:3225-4P-L-noct"
+		(property "Footprint" "APRLPrints:3225-4P-L"
 			(at 187.96 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -7223,7 +7460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d0920a-cbd1-4091-af13-98f053292e1e")
-		(property "Reference" "C17"
+		(property "Reference" "C23"
 			(at 177.8 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 175.26 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7287,165 +7524,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 95.25 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8d12d83e-9148-4465-914d-bf169700d6f1")
-		(property "Reference" "R14"
-			(at 39.878 93.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 49.022 93.472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4dace75-0db9-4635-b750-f85e6b48ca53")
-		)
-		(pin "1"
-			(uuid "fa9e0af0-cc47-41e2-a26f-7a9730d1e1fb")
-		)
-		(instances
-			(project "PT"
-				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 179.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99e9758d-6521-4b7f-af90-0cc4563c27ad")
-		(property "Reference" "R20"
-			(at 39.878 177.292 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 49.022 177.292 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a3bea6f4-9291-455b-8f5c-7a7354e738e3")
-		)
-		(pin "1"
-			(uuid "9e8e578e-b813-4691-a2ea-d6ee75643129")
-		)
-		(instances
-			(project "PT"
-				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R20")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7463,7 +7542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce220ff-e312-4384-af2e-8e2c0174cce1")
-		(property "Reference" "C15"
+		(property "Reference" "C20"
 			(at 58.42 46.9962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 55.88 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7527,7 +7606,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C15")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7545,7 +7624,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a13ceebc-ac37-495f-b4b6-b3536748d5c6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 27.94 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7605,7 +7684,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7623,7 +7702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c6030d-ea41-46e5-aed8-1cb4b1111cf2")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 27.94 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -7684,7 +7763,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7702,7 +7781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5e710f-c8e4-4263-aed6-460b84e3cd24")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR041"
 			(at 142.24 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7763,7 +7842,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR034")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7880,7 +7959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "APRLPrints:Fuse_0805_2012Metric"
 			(at 118.11 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8012,7 +8091,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 138.43 90)
+		(at 44.45 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8020,9 +8099,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b616038a-1d47-44e5-92d1-591d5fff6c4f")
-		(property "Reference" "R17"
-			(at 39.878 136.652 90)
+		(uuid "bb90ad6b-061e-47ed-b2ba-f7123463457e")
+		(property "Reference" "R11"
+			(at 39.878 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8032,7 +8111,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 49.022 136.652 90)
+			(at 49.022 50.292 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8042,7 +8121,7 @@
 			)
 		)
 		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 138.43 0)
+			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8053,7 +8132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 138.43 0)
+			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8064,7 +8143,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 44.45 138.43 0)
+			(at 44.45 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,15 +8154,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2b67e349-73f6-46ac-ba19-26bcc60ba4cf")
+			(uuid "6f1482c1-2712-4938-8b92-e3bbfa1d2e0f")
 		)
 		(pin "1"
-			(uuid "2ab75914-ba3f-44ae-96ce-12728a56c088")
+			(uuid "2213fea1-b274-4b25-89e5-20d161c4f611")
 		)
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R17")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8255,7 +8334,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 171.45 90)
+		(at 44.45 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8263,9 +8342,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c676f8dd-4ef8-4c03-be0d-3c34676fe9b6")
-		(property "Reference" "R18"
-			(at 39.878 169.672 90)
+		(uuid "c7d787f1-4eab-4e9b-b004-d3f096d347da")
+		(property "Reference" "R14"
+			(at 39.878 93.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8275,7 +8354,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 49.022 169.672 90)
+			(at 49.022 93.472 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8285,7 +8364,7 @@
 			)
 		)
 		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 171.45 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8296,7 +8375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 171.45 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +8386,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 44.45 171.45 0)
+			(at 44.45 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8318,15 +8397,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "94b15d2a-850d-4a75-b3d5-c7dad2d1e8df")
+			(uuid "f295fe91-75bf-4342-8909-953d9d85eab4")
 		)
 		(pin "1"
-			(uuid "46334f6e-2be3-4d2c-a288-ae528611ec7d")
+			(uuid "1b2ea8ff-3ec2-42b7-8d6b-babe893d7d77")
 		)
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6bc7a41-04d0-4091-89f8-e948de816f16")
-		(property "Reference" "C25"
+		(property "Reference" "C31"
 			(at 180.34 138.4362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8366,7 +8445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 177.8 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8430,7 +8509,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C25")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -8448,7 +8527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dad783ed-3a20-4f0f-9b32-242be5777729")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR036"
 			(at 123.19 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8508,7 +8587,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR070")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8526,7 +8605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd9ca1af-12a2-4c34-aad9-07d79d24302e")
-		(property "Reference" "C21"
+		(property "Reference" "C27"
 			(at 58.42 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8548,7 +8627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8590,86 +8669,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 44.45 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e339982c-3925-4a54-8649-0243a655dc85")
-		(property "Reference" "R15"
-			(at 39.878 129.032 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100R"
-			(at 49.022 129.032 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 44.45 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5570e578-c10a-4fda-a1de-6c32e91b599f")
-		)
-		(pin "1"
-			(uuid "dd37a586-fe0e-4825-8ce1-b5ced92c431d")
-		)
-		(instances
-			(project "PT"
-				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R15")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8769,7 +8769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e642e13b-e6fb-4acc-beff-b8b5127855f4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR050"
 			(at 27.94 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -8829,7 +8829,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR043")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 52.07 90)
+		(at 44.45 171.45 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8925,9 +8925,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f4bb1076-23f1-45de-9f79-5909fcaad249")
-		(property "Reference" "R11"
-			(at 39.878 50.292 90)
+		(uuid "ec88e15b-69ac-4bac-a52a-e073238ada37")
+		(property "Reference" "R18"
+			(at 39.878 169.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8937,7 +8937,7 @@
 			)
 		)
 		(property "Value" "100R"
-			(at 49.022 50.292 90)
+			(at 49.022 169.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8947,7 +8947,7 @@
 			)
 		)
 		(property "Footprint" "APRLPrints:R_0603"
-			(at 44.45 52.07 0)
+			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +8958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 52.07 0)
+			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8969,7 +8969,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 44.45 52.07 0)
+			(at 44.45 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8980,15 +8980,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "d824124a-860f-47df-ab98-e0fae146ed67")
+			(uuid "e458f15f-0c3b-4301-84b8-c5a6f12a43ec")
 		)
 		(pin "1"
-			(uuid "b5ed260c-2927-4818-8612-815d855d7419")
+			(uuid "e20aa5a2-4677-4f8e-ae07-5af726ad14a8")
 		)
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "R11")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9006,7 +9006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f54deb14-fa82-46df-b51f-ed8239963d52")
-		(property "Reference" "C20"
+		(property "Reference" "C26"
 			(at 134.6263 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9026,7 +9026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 134.62 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9068,7 +9068,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C20")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -9086,7 +9086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f83b988e-a1c7-4d55-8db5-08ef189541ef")
-		(property "Reference" "C19"
+		(property "Reference" "C25"
 			(at 200.66 66.0462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,7 +9108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "aprlprints:C_0603-noct"
+		(property "Footprint" "APRLPrints:C_0603"
 			(at 198.12 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9150,7 +9150,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9168,7 +9168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd4fc589-45b7-4af8-b758-7f5305b3abbe")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR047"
 			(at 153.67 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -9229,7 +9229,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR040")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9247,7 +9247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff39b39b-347e-467c-a329-346558af1335")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 162.56 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9308,7 +9308,7 @@
 		(instances
 			(project "PT"
 				(path "/0eb5ae8a-84ea-4b7e-bec4-bb4e0217d666/de3cef6c-f0bf-43f9-bc77-3e59044b84fe"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)

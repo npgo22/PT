@@ -23751,7 +23751,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 176.53 0)
+		(at 25.4 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23761,7 +23761,7 @@
 		(dnp no)
 		(uuid "541d203f-356b-4745-918a-d751b7388a27")
 		(property "Reference" "H1"
-			(at 25.4 176.53 0)
+			(at 27.94 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23772,7 +23772,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 176.53 0)
+			(at 28.702 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23784,7 +23784,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 176.53 0)
+			(at 25.4 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23795,7 +23795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 176.53 0)
+			(at 25.4 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23806,7 +23806,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 176.53 0)
+			(at 25.4 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23827,7 +23827,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 186.69 0)
+		(at 25.4 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23837,7 +23837,7 @@
 		(dnp no)
 		(uuid "ba8ef6e0-e74c-4d34-a8b1-39cf3e1cb95c")
 		(property "Reference" "H3"
-			(at 25.4 186.69 0)
+			(at 27.94 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23848,7 +23848,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 186.69 0)
+			(at 28.702 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23860,7 +23860,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 186.69 0)
+			(at 25.4 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23871,7 +23871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 186.69 0)
+			(at 25.4 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23882,7 +23882,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 186.69 0)
+			(at 25.4 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23903,7 +23903,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 191.77 0)
+		(at 25.4 191.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23913,7 +23913,7 @@
 		(dnp no)
 		(uuid "ec14aee1-94d0-4cb5-b3e2-af055b92b223")
 		(property "Reference" "H4"
-			(at 25.4 191.77 0)
+			(at 27.94 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23924,7 +23924,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 191.77 0)
+			(at 28.702 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23936,7 +23936,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 191.77 0)
+			(at 25.4 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23947,7 +23947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 191.77 0)
+			(at 25.4 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23958,7 +23958,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 191.77 0)
+			(at 25.4 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23979,7 +23979,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 22.86 181.61 0)
+		(at 25.4 181.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23989,7 +23989,7 @@
 		(dnp no)
 		(uuid "f4bacc26-69ad-42a6-843e-89fc32fd1e28")
 		(property "Reference" "H2"
-			(at 25.4 181.61 0)
+			(at 27.94 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24000,7 +24000,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 26.162 181.61 0)
+			(at 28.702 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24012,7 +24012,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
-			(at 22.86 181.61 0)
+			(at 25.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24023,7 +24023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 181.61 0)
+			(at 25.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24034,7 +24034,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 22.86 181.61 0)
+			(at 25.4 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
