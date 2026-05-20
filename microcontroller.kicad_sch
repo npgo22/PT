@@ -6025,6 +6025,10 @@
 		(uuid "5476a8f9-0ee6-4c16-8437-158c047a1847")
 	)
 	(no_connect
+		(at 85.09 88.9)
+		(uuid "944d0148-7577-46d8-9686-dd2d24de7a02")
+	)
+	(no_connect
 		(at 199.39 69.85)
 		(uuid "94903f15-729e-4ea7-b857-70f4ee55c908")
 	)
@@ -7554,16 +7558,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 85.09 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5840c5b-cfc5-407f-a12f-5fc02a0b9dc0")
-	)
-	(wire
-		(pts
 			(xy 113.03 152.4) (xy 113.03 153.67)
 		)
 		(stroke
@@ -8909,30 +8903,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "ETH_RXER"
-		(shape bidirectional)
-		(at 83.82 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da5c4cad-82cc-4e60-8668-c472a2ad3a37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.4103 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -11356,7 +11326,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED"
 			(at 191.77 115.5064 90)
 			(hide yes)
 			(show_name no)
@@ -11814,7 +11784,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED"
 			(at 181.61 115.5064 90)
 			(hide yes)
 			(show_name no)
@@ -12762,7 +12732,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Small"
+		(property "Value" "LED"
 			(at 200.66 115.5064 90)
 			(hide yes)
 			(show_name no)
