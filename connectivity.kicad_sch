@@ -5845,317 +5845,148 @@
 		)
 		(uuid "eb86488c-8b82-4953-972d-ff5ebc20e407")
 	)
-	(global_label "FDCAN_STDBY"
-		(shape input)
-		(at 176.53 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "259fab25-3832-4a63-8bca-b06cae7312be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.8671 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_TXD1"
-		(shape input)
-		(at 39.37 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3aca9318-ef9f-4ce2-bb29-07e12939ab08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.9964 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_REF_CLK"
-		(shape output)
-		(at 40.64 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "49fccb74-eedf-441f-80be-5e94df08fc11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0343 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_CRS_DV"
-		(shape output)
-		(at 39.37 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5270693a-30ae-4ab8-a6b9-c99f92212528")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4318 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_MDC"
-		(shape input)
-		(at 39.37 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "568de902-16d6-4e96-abba-bdec408ef47d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.015 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FDCAN_TX"
-		(shape input)
-		(at 176.53 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81dda184-64fd-4d25-88e2-f4687035b6b7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.5385 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_TX_EN"
-		(shape input)
-		(at 39.37 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83a4878f-265c-4751-ba0c-898a2a945863")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.7246 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "FDCAN_RX"
-		(shape output)
-		(at 176.53 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a01ef83b-088e-49a8-9a1b-41ee6f55364a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 164.3822 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_RXD0"
-		(shape output)
-		(at 39.37 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a29e410b-48e3-4ceb-ba9e-b385e7c0da2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.4406 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_TXD0"
-		(shape input)
-		(at 39.37 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad27d210-c8e4-4f44-96f8-964a5a45736c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.5969 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_MDIO"
-		(shape bidirectional)
-		(at 39.37 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c7ef5d75-5775-4a2a-a975-0dc5a4594b48")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.3665 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ETH_RXD1"
+	(hierarchical_label "ETH_RXD1"
 		(shape output)
 		(at 39.37 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "ce03fb44-0984-496e-bf91-9fa4fabec592")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.8401 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "23a499c9-b7aa-46ae-82dc-3a9ef6f6e61d")
 	)
-	(global_label "ETH_~{RST}"
+	(hierarchical_label "ETH_~{RST}"
 		(shape input)
 		(at 40.64 97.79 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e321d951-22c9-4680-b8be-d328c08fc3c5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.793 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "34a1fb6f-a981-4d18-b663-7c80b95c6cad")
+	)
+	(hierarchical_label "FDCAN_STDBY"
+		(shape input)
+		(at 176.53 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "3e3dbcfd-be67-40b5-8735-aab6ad52a4aa")
+	)
+	(hierarchical_label "ETH_MDIO"
+		(shape bidirectional)
+		(at 39.37 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48959da3-db48-45f6-b464-b9a2a37459af")
+	)
+	(hierarchical_label "ETH_TXD0"
+		(shape input)
+		(at 39.37 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57752374-21a0-4fff-aab3-fc2414b3514d")
+	)
+	(hierarchical_label "ETH_TXD1"
+		(shape input)
+		(at 39.37 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ac88d9d-3472-404e-bd0f-9b55abffb247")
+	)
+	(hierarchical_label "FDCAN_RX"
+		(shape output)
+		(at 176.53 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87781ff5-f387-4bfd-9963-4cf3bcfb8b8d")
+	)
+	(hierarchical_label "ETH_RXD0"
+		(shape output)
+		(at 39.37 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91b981d9-ccae-41c4-b199-ab929c246df6")
+	)
+	(hierarchical_label "ETH_MDC"
+		(shape input)
+		(at 39.37 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a31bcbe7-af9e-40d9-98d3-cd68b1be7dc6")
+	)
+	(hierarchical_label "ETH_REF_CLK"
+		(shape output)
+		(at 40.64 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c62f666a-0aae-48c5-92ed-cb4544b38f99")
+	)
+	(hierarchical_label "ETH_CRS_DV"
+		(shape output)
+		(at 39.37 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e24836f3-d7cd-4640-8018-617b45a8d0cb")
+	)
+	(hierarchical_label "ETH_TX_EN"
+		(shape input)
+		(at 39.37 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5614e9-3def-485e-a8fe-5af3a9dc6349")
+	)
+	(hierarchical_label "FDCAN_TX"
+		(shape input)
+		(at 176.53 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff987aef-2000-48b1-89d4-f52f76331ce2")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
