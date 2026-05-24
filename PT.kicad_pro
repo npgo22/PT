@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.1,
           "min_island_area": 10.0,
           "min_thickness": 0.15,
           "pad_connection": 2,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,68 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|131425000|99787500|74db102d-0e3f-410c-b44b-c5f47622ae6f|8a674cf5-bb6f-4476-a46e-346fc2e111f2",
+          ""
+        ],
+        [
+          "clearance|132225000|99787500|74db102d-0e3f-410c-b44b-c5f47622ae6f|7c56a7b2-14c2-4b3b-8edb-689c30c066ff",
+          ""
+        ],
+        [
+          "clearance|132512500|103212500|709f2bc3-11c3-4748-9a6a-16020aea82e5|802914a6-f3ea-4e4d-85b2-4b7367f9d85f",
+          ""
+        ],
+        [
+          "clearance|133250000|95437500|0113a1b7-12bc-457e-89ae-d2603926c36f|07e015fb-cfbf-47cb-91fe-449c4a8a9378",
+          ""
+        ],
+        [
+          "clearance|134912500|94637500|a58c16b9-1ff5-4947-99a1-17d2d22e759c|ef86ab34-7c2c-4b8e-b338-28ea00bd8d54",
+          ""
+        ],
+        [
+          "clearance|134912500|95437500|08dc71e9-d82d-419d-b110-6c69049d19ac|ef86ab34-7c2c-4b8e-b338-28ea00bd8d54",
+          ""
+        ],
+        [
+          "clearance|138112500|102854235|cf59f27f-2ecd-4ca4-8b15-02620dab655c|d26fa0d7-95d5-40ef-a40a-20693b68269d",
+          ""
+        ],
+        [
+          "clearance|139200000|95787500|6a3f0207-dda0-427d-b284-fc0050a35226|d1f36a42-d0f9-4f6e-891e-dddad8e21279",
+          ""
+        ],
+        [
+          "clearance|139600000|96125000|2fcf194f-fe0a-4d33-a1a2-8e5d5ab4f85b|6a3f0207-dda0-427d-b284-fc0050a35226",
+          ""
+        ],
+        [
+          "clearance|140000000|96925000|568b73ce-201c-40f0-8274-d93848f84ef5|d7c519b9-2884-4dc7-b4da-6c29a61c4cfa",
+          ""
+        ],
+        [
+          "clearance|140000000|97662500|5cc3f52e-82bb-4335-aa80-cb2ef666cfa7|64ce6ccd-7914-4059-81d5-ac5e0636370c",
+          ""
+        ],
+        [
+          "starved_thermal|120582500|77325000|e5030963-0f1a-454d-a229-a2805cc7cf8a|3e9bb034-3963-4b2d-a551-41c7eb263cd5|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|146052500|104250000|e5030963-0f1a-454d-a229-a2805cc7cf8a|ab373479-0e5a-4d0a-9afa-b7d5f6f3ff8f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|160322500|93240000|e5030963-0f1a-454d-a229-a2805cc7cf8a|f9cca43a-0122-4351-be69-a3f8fecd2b85|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|160682500|96370000|e5030963-0f1a-454d-a229-a2805cc7cf8a|0c195d98-998a-4403-b9ce-bf6c245ad5ea|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -212,6 +273,7 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
         0.3
       ],
       "tuning_pattern_settings": {
@@ -500,7 +562,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "libpt"
+    ],
     "pinned_symbol_libs": [
       "libpt"
     ]
